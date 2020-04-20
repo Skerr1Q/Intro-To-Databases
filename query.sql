@@ -1,6 +1,6 @@
 --Query 1
 SELECT
-    SUM(streams),
+    SUM(streams) as total_streams,
     region
 FROM
     popularity
