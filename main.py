@@ -68,13 +68,13 @@ cursor = connection.cursor()
 
 cursor.execute(first_query)
 
-result_sales = cursor.fetchall()
+result_streams = cursor.fetchall()
 
 print('''Запит 1 - Загальна кількість прослуховувань перших 5 позицій чартів у Spotify за 2017-01-01 у різних країнах. Країна - число
 Візуалізація – стовпчикова діаграма.''')
 print("\n{:<50} | {}".format('total_streams', 'popularity'))
 print("{:-^51}|{:-^12}".format('-', '-'))
-for row in result_sales:
+for row in result_streams:
     print("{:<50} | {}".format(*row))
 
 # Рeзультати другого запиту
