@@ -54,8 +54,6 @@ INSERT INTO popularity (
     19270
 );
 
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
 INSERT INTO artists VALUES ( 'Zion and Lennox' );
 
 INSERT INTO tracks (
@@ -81,8 +79,6 @@ INSERT INTO popularity (
     3,
     15761
 );
-
-INSERT INTO regions ( region ) VALUES ( 'ec' );
 
 INSERT INTO artists VALUES ( 'Ricky Martin' );
 
@@ -110,8 +106,6 @@ INSERT INTO popularity (
     14954
 );
 
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
 INSERT INTO artists VALUES ( 'J Balvin' );
 
 INSERT INTO tracks (
@@ -137,8 +131,6 @@ INSERT INTO popularity (
     5,
     14269
 );
-
-INSERT INTO regions ( region ) VALUES ( 'ec' );
 
 INSERT INTO artists VALUES ( 'Carlos Vives' );
 
@@ -166,8 +158,6 @@ INSERT INTO popularity (
     12843
 );
 
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
 INSERT INTO artists VALUES ( 'IAmChino' );
 
 INSERT INTO tracks (
@@ -193,8 +183,6 @@ INSERT INTO popularity (
     7,
     10986
 );
-
-INSERT INTO regions ( region ) VALUES ( 'ec' );
 
 INSERT INTO artists VALUES ( 'Chino and Nacho' );
 
@@ -222,8 +210,6 @@ INSERT INTO popularity (
     10653
 );
 
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
 INSERT INTO artists VALUES ( 'Sebastian Yatra' );
 
 INSERT INTO tracks (
@@ -249,8 +235,6 @@ INSERT INTO popularity (
     9,
     9807
 );
-
-INSERT INTO regions ( region ) VALUES ( 'ec' );
 
 INSERT INTO artists VALUES ( 'Daddy Yankee' );
 
@@ -278,8 +262,6 @@ INSERT INTO popularity (
     9612
 );
 
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
 INSERT INTO artists VALUES ( 'Wisin' );
 
 INSERT INTO tracks (
@@ -305,8 +287,6 @@ INSERT INTO popularity (
     11,
     9611
 );
-
-INSERT INTO regions ( region ) VALUES ( 'ec' );
 
 INSERT INTO artists VALUES ( 'Ozuna' );
 
@@ -334,8 +314,6 @@ INSERT INTO popularity (
     8982
 );
 
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
 INSERT INTO artists VALUES ( 'DJ Snake' );
 
 INSERT INTO tracks (
@@ -361,8 +339,6 @@ INSERT INTO popularity (
     13,
     8834
 );
-
-INSERT INTO regions ( region ) VALUES ( 'ec' );
 
 INSERT INTO artists VALUES ( 'Enrique Iglesias' );
 
@@ -390,8 +366,6 @@ INSERT INTO popularity (
     8309
 );
 
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
 INSERT INTO artists VALUES ( 'Farruko' );
 
 INSERT INTO tracks (
@@ -417,8 +391,6 @@ INSERT INTO popularity (
     15,
     7822
 );
-
-INSERT INTO regions ( region ) VALUES ( 'ec' );
 
 INSERT INTO artists VALUES ( 'Maluma' );
 
@@ -446,8 +418,6 @@ INSERT INTO popularity (
     7586
 );
 
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
 INSERT INTO artists VALUES ( 'Drake' );
 
 INSERT INTO tracks (
@@ -473,8 +443,6 @@ INSERT INTO popularity (
     17,
     7472
 );
-
-INSERT INTO regions ( region ) VALUES ( 'ec' );
 
 INSERT INTO artists VALUES ( 'The Chainsmokers' );
 
@@ -502,8 +470,6 @@ INSERT INTO popularity (
     7416
 );
 
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
 INSERT INTO artists VALUES ( 'The Weeknd' );
 
 INSERT INTO tracks (
@@ -530,9 +496,7 @@ INSERT INTO popularity (
     7006
 );
 
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
-INSERT INTO artists VALUES ( 'Thal?­a' );
+INSERT INTO artists VALUES ( 'Thal??a' );
 
 INSERT INTO tracks (
     track_url,
@@ -541,7 +505,7 @@ INSERT INTO tracks (
 ) VALUES (
     'https://open.spotify.com/track/1pWYnQIlqxTh5bxuPmTG4E',
     'Desde Esa Noche',
-    'Thal?­a'
+    'Thal??a'
 );
 
 INSERT INTO popularity (
@@ -586,10 +550,6 @@ INSERT INTO popularity (
     1371493
 );
 
-INSERT INTO regions ( region ) VALUES ( 'us' );
-
-INSERT INTO artists VALUES ( 'Drake' );
-
 INSERT INTO tracks (
     track_url,
     track,
@@ -614,20 +574,6 @@ INSERT INTO popularity (
     1180074
 );
 
-INSERT INTO regions ( region ) VALUES ( 'us' );
-
-INSERT INTO artists VALUES ( 'The Weeknd' );
-
-INSERT INTO tracks (
-    track_url,
-    track,
-    artist
-) VALUES (
-    'https://open.spotify.com/track/5aAx2yezTd8zXrkmtKl66Z',
-    'Starboy',
-    'The Weeknd'
-);
-
 INSERT INTO popularity (
     track_url,
     date_viewed,
@@ -640,20 +586,6 @@ INSERT INTO popularity (
     'us',
     3,
     1064351
-);
-
-INSERT INTO regions ( region ) VALUES ( 'us' );
-
-INSERT INTO artists VALUES ( 'The Chainsmokers' );
-
-INSERT INTO tracks (
-    track_url,
-    track,
-    artist
-) VALUES (
-    'https://open.spotify.com/track/7BKLCZ1jbUBVqRi2FVlTVw',
-    'Closer',
-    'The Chainsmokers'
 );
 
 INSERT INTO popularity (
@@ -669,8 +601,6 @@ INSERT INTO popularity (
     4,
     1010492
 );
-
-INSERT INTO regions ( region ) VALUES ( 'us' );
 
 INSERT INTO artists VALUES ( 'Rae Sremmurd' );
 
@@ -700,18 +630,6 @@ INSERT INTO popularity (
 
 INSERT INTO regions ( region ) VALUES ( 'fr' );
 
-INSERT INTO artists VALUES ( 'Drake' );
-
-INSERT INTO tracks (
-    track_url,
-    track,
-    artist
-) VALUES (
-    'https://open.spotify.com/track/1xznGGDReH1oQq0xzbwXa3',
-    'One Dance',
-    'Drake'
-);
-
 INSERT INTO popularity (
     track_url,
     date_viewed,
@@ -724,20 +642,6 @@ INSERT INTO popularity (
     'fr',
     1,
     89403
-);
-
-INSERT INTO regions ( region ) VALUES ( 'fr' );
-
-INSERT INTO artists VALUES ( 'The Weeknd' );
-
-INSERT INTO tracks (
-    track_url,
-    track,
-    artist
-) VALUES (
-    'https://open.spotify.com/track/5aAx2yezTd8zXrkmtKl66Z',
-    'Starboy',
-    'The Weeknd'
 );
 
 INSERT INTO popularity (
@@ -753,8 +657,6 @@ INSERT INTO popularity (
     2,
     80882
 );
-
-INSERT INTO regions ( region ) VALUES ( 'fr' );
 
 INSERT INTO artists VALUES ( 'Bruno Mars' );
 
@@ -782,8 +684,6 @@ INSERT INTO popularity (
     80838
 );
 
-INSERT INTO regions ( region ) VALUES ( 'fr' );
-
 INSERT INTO artists VALUES ( 'Calvin Harris' );
 
 INSERT INTO tracks (
@@ -809,8 +709,6 @@ INSERT INTO popularity (
     4,
     72133
 );
-
-INSERT INTO regions ( region ) VALUES ( 'fr' );
 
 INSERT INTO artists VALUES ( 'Nekfeu' );
 
@@ -866,8 +764,6 @@ INSERT INTO popularity (
     71014
 );
 
-INSERT INTO regions ( region ) VALUES ( 'it' );
-
 INSERT INTO artists VALUES ( 'Fabio Rovazzi' );
 
 INSERT INTO tracks (
@@ -894,10 +790,6 @@ INSERT INTO popularity (
     54803
 );
 
-INSERT INTO regions ( region ) VALUES ( 'it' );
-
-INSERT INTO artists VALUES ( 'The Chainsmokers' );
-
 INSERT INTO tracks (
     track_url,
     track,
@@ -922,10 +814,6 @@ INSERT INTO popularity (
     54136
 );
 
-INSERT INTO regions ( region ) VALUES ( 'it' );
-
-INSERT INTO artists VALUES ( 'DJ Snake' );
-
 INSERT INTO tracks (
     track_url,
     track,
@@ -949,8 +837,6 @@ INSERT INTO popularity (
     4,
     52883
 );
-
-INSERT INTO regions ( region ) VALUES ( 'it' );
 
 INSERT INTO artists VALUES ( 'RagnBone Man' );
 
@@ -980,8 +866,6 @@ INSERT INTO popularity (
 
 INSERT INTO regions ( region ) VALUES ( 'ar' );
 
-INSERT INTO artists VALUES ( 'Shakira' );
-
 INSERT INTO tracks (
     track_url,
     track,
@@ -1005,10 +889,6 @@ INSERT INTO popularity (
     1,
     253019
 );
-
-INSERT INTO regions ( region ) VALUES ( 'ar' );
-
-INSERT INTO artists VALUES ( 'Ricky Martin' );
 
 INSERT INTO tracks (
     track_url,
@@ -1034,20 +914,6 @@ INSERT INTO popularity (
     223988
 );
 
-INSERT INTO regions ( region ) VALUES ( 'ar' );
-
-INSERT INTO artists VALUES ( 'CNCO' );
-
-INSERT INTO tracks (
-    track_url,
-    track,
-    artist
-) VALUES (
-    'https://open.spotify.com/track/3AEZUABDXNtecAOSC1qTfo',
-    'Reggaet??n Lento (Bailemos)',
-    'CNCO'
-);
-
 INSERT INTO popularity (
     track_url,
     date_viewed,
@@ -1060,20 +926,6 @@ INSERT INTO popularity (
     'ar',
     3,
     210943
-);
-
-INSERT INTO regions ( region ) VALUES ( 'ar' );
-
-INSERT INTO artists VALUES ( 'J Balvin' );
-
-INSERT INTO tracks (
-    track_url,
-    track,
-    artist
-) VALUES (
-    'https://open.spotify.com/track/6rQSrBHf7HlZjtcMZ4S4bO',
-    'Safari',
-    'J Balvin'
 );
 
 INSERT INTO popularity (
@@ -1090,20 +942,6 @@ INSERT INTO popularity (
     173865
 );
 
-INSERT INTO regions ( region ) VALUES ( 'ar' );
-
-INSERT INTO artists VALUES ( 'Daddy Yankee' );
-
-INSERT INTO tracks (
-    track_url,
-    track,
-    artist
-) VALUES (
-    'https://open.spotify.com/track/58IL315gMSTD37DOZPJ2hf',
-    'Shaky Shaky',
-    'Daddy Yankee'
-);
-
 INSERT INTO popularity (
     track_url,
     date_viewed,
@@ -1116,20 +954,6 @@ INSERT INTO popularity (
     'ar',
     5,
     153956
-);
-
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
-INSERT INTO artists VALUES ( 'CNCO' );
-
-INSERT INTO tracks (
-    track_url,
-    track,
-    artist
-) VALUES (
-    'https://open.spotify.com/track/3AEZUABDXNtecAOSC1qTfo',
-    'Reggaet??n Lento (Bailemos)',
-    'CNCO'
 );
 
 INSERT INTO popularity (
@@ -1146,20 +970,6 @@ INSERT INTO popularity (
     16672
 );
 
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
-INSERT INTO artists VALUES ( 'Shakira' );
-
-INSERT INTO tracks (
-    track_url,
-    track,
-    artist
-) VALUES (
-    'https://open.spotify.com/track/6mICuAdrwEjh6Y6lroV2Kg',
-    'Chantaje',
-    'Shakira'
-);
-
 INSERT INTO popularity (
     track_url,
     date_viewed,
@@ -1172,20 +982,6 @@ INSERT INTO popularity (
     'ec',
     2,
     15594
-);
-
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
-INSERT INTO artists VALUES ( 'Zion and Lennox' );
-
-INSERT INTO tracks (
-    track_url,
-    track,
-    artist
-) VALUES (
-    'https://open.spotify.com/track/3QwBODjSEzelZyVjxPOHdq',
-    'Otra Vez (feat. J Balvin)',
-    'Zion and Lennox'
 );
 
 INSERT INTO popularity (
@@ -1202,20 +998,6 @@ INSERT INTO popularity (
     13507
 );
 
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
-INSERT INTO artists VALUES ( 'J Balvin' );
-
-INSERT INTO tracks (
-    track_url,
-    track,
-    artist
-) VALUES (
-    'https://open.spotify.com/track/6rQSrBHf7HlZjtcMZ4S4bO',
-    'Safari',
-    'J Balvin'
-);
-
 INSERT INTO popularity (
     track_url,
     date_viewed,
@@ -1228,20 +1010,6 @@ INSERT INTO popularity (
     'ec',
     4,
     11958
-);
-
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
-INSERT INTO artists VALUES ( 'Ricky Martin' );
-
-INSERT INTO tracks (
-    track_url,
-    track,
-    artist
-) VALUES (
-    'https://open.spotify.com/track/7DM4BPaS7uofFul3ywMe46',
-    'Vente Pa Ca',
-    'Ricky Martin'
 );
 
 INSERT INTO popularity (
@@ -1257,10 +1025,6 @@ INSERT INTO popularity (
     5,
     11590
 );
-
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
-INSERT INTO artists VALUES ( 'DJ Snake' );
 
 INSERT INTO tracks (
     track_url,
@@ -1286,20 +1050,6 @@ INSERT INTO popularity (
     9096
 );
 
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
-INSERT INTO artists VALUES ( 'IAmChino' );
-
-INSERT INTO tracks (
-    track_url,
-    track,
-    artist
-) VALUES (
-    'https://open.spotify.com/track/6stYbAJgTszHAHZMPxWWCY',
-    'Ay Mi Dios',
-    'IAmChino'
-);
-
 INSERT INTO popularity (
     track_url,
     date_viewed,
@@ -1313,10 +1063,6 @@ INSERT INTO popularity (
     7,
     9023
 );
-
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
-INSERT INTO artists VALUES ( 'Sebastian Yatra' );
 
 INSERT INTO tracks (
     track_url,
@@ -1342,20 +1088,6 @@ INSERT INTO popularity (
     8511
 );
 
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
-INSERT INTO artists VALUES ( 'Carlos Vives' );
-
-INSERT INTO tracks (
-    track_url,
-    track,
-    artist
-) VALUES (
-    'https://open.spotify.com/track/0sXvAOmXgjR2QUqLK1MltU',
-    'La Bicicleta',
-    'Carlos Vives'
-);
-
 INSERT INTO popularity (
     track_url,
     date_viewed,
@@ -1369,10 +1101,6 @@ INSERT INTO popularity (
     9,
     8288
 );
-
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
-INSERT INTO artists VALUES ( 'Wisin' );
 
 INSERT INTO tracks (
     track_url,
@@ -1398,10 +1126,6 @@ INSERT INTO popularity (
     8205
 );
 
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
-INSERT INTO artists VALUES ( 'CNCO' );
-
 INSERT INTO tracks (
     track_url,
     track,
@@ -1425,10 +1149,6 @@ INSERT INTO popularity (
     1,
     17258
 );
-
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
-INSERT INTO artists VALUES ( 'Shakira' );
 
 INSERT INTO tracks (
     track_url,
@@ -1454,10 +1174,6 @@ INSERT INTO popularity (
     16614
 );
 
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
-INSERT INTO artists VALUES ( 'Zion and Lennox' );
-
 INSERT INTO tracks (
     track_url,
     track,
@@ -1481,10 +1197,6 @@ INSERT INTO popularity (
     3,
     14148
 );
-
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
-INSERT INTO artists VALUES ( 'J Balvin' );
 
 INSERT INTO tracks (
     track_url,
@@ -1510,10 +1222,6 @@ INSERT INTO popularity (
     12336
 );
 
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
-INSERT INTO artists VALUES ( 'Ricky Martin' );
-
 INSERT INTO tracks (
     track_url,
     track,
@@ -1538,20 +1246,6 @@ INSERT INTO popularity (
     12280
 );
 
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
-INSERT INTO artists VALUES ( 'DJ Snake' );
-
-INSERT INTO tracks (
-    track_url,
-    track,
-    artist
-) VALUES (
-    'https://open.spotify.com/track/4pdPtRcBmOSQDlJ3Fk945m',
-    'Let Me Love You',
-    'DJ Snake'
-);
-
 INSERT INTO popularity (
     track_url,
     date_viewed,
@@ -1564,20 +1258,6 @@ INSERT INTO popularity (
     'ec',
     6,
     10652
-);
-
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
-INSERT INTO artists VALUES ( 'IAmChino' );
-
-INSERT INTO tracks (
-    track_url,
-    track,
-    artist
-) VALUES (
-    'https://open.spotify.com/track/6stYbAJgTszHAHZMPxWWCY',
-    'Ay Mi Dios',
-    'IAmChino'
 );
 
 INSERT INTO popularity (
@@ -1594,20 +1274,6 @@ INSERT INTO popularity (
     9519
 );
 
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
-INSERT INTO artists VALUES ( 'The Chainsmokers' );
-
-INSERT INTO tracks (
-    track_url,
-    track,
-    artist
-) VALUES (
-    'https://open.spotify.com/track/7BKLCZ1jbUBVqRi2FVlTVw',
-    'Closer',
-    'The Chainsmokers'
-);
-
 INSERT INTO popularity (
     track_url,
     date_viewed,
@@ -1620,20 +1286,6 @@ INSERT INTO popularity (
     'ec',
     8,
     9244
-);
-
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
-INSERT INTO artists VALUES ( 'Wisin' );
-
-INSERT INTO tracks (
-    track_url,
-    track,
-    artist
-) VALUES (
-    'https://open.spotify.com/track/3dQDid3IUNhZy1OehIfYfE',
-    'Vacaciones',
-    'Wisin'
 );
 
 INSERT INTO popularity (
@@ -1650,20 +1302,6 @@ INSERT INTO popularity (
     9032
 );
 
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
-INSERT INTO artists VALUES ( 'Sebastian Yatra' );
-
-INSERT INTO tracks (
-    track_url,
-    track,
-    artist
-) VALUES (
-    'https://open.spotify.com/track/5J1c3M4EldCfNxXwrwt8mT',
-    'Traicionera',
-    'Sebastian Yatra'
-);
-
 INSERT INTO popularity (
     track_url,
     date_viewed,
@@ -1676,20 +1314,6 @@ INSERT INTO popularity (
     'ec',
     10,
     8993
-);
-
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
-INSERT INTO artists VALUES ( 'CNCO' );
-
-INSERT INTO tracks (
-    track_url,
-    track,
-    artist
-) VALUES (
-    'https://open.spotify.com/track/3AEZUABDXNtecAOSC1qTfo',
-    'Reggaet??n Lento (Bailemos)',
-    'CNCO'
 );
 
 INSERT INTO popularity (
@@ -1706,20 +1330,6 @@ INSERT INTO popularity (
     18146
 );
 
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
-INSERT INTO artists VALUES ( 'Shakira' );
-
-INSERT INTO tracks (
-    track_url,
-    track,
-    artist
-) VALUES (
-    'https://open.spotify.com/track/6mICuAdrwEjh6Y6lroV2Kg',
-    'Chantaje',
-    'Shakira'
-);
-
 INSERT INTO popularity (
     track_url,
     date_viewed,
@@ -1732,20 +1342,6 @@ INSERT INTO popularity (
     'ec',
     2,
     16582
-);
-
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
-INSERT INTO artists VALUES ( 'Zion and Lennox' );
-
-INSERT INTO tracks (
-    track_url,
-    track,
-    artist
-) VALUES (
-    'https://open.spotify.com/track/3QwBODjSEzelZyVjxPOHdq',
-    'Otra Vez (feat. J Balvin)',
-    'Zion and Lennox'
 );
 
 INSERT INTO popularity (
@@ -1762,20 +1358,6 @@ INSERT INTO popularity (
     14602
 );
 
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
-INSERT INTO artists VALUES ( 'Ricky Martin' );
-
-INSERT INTO tracks (
-    track_url,
-    track,
-    artist
-) VALUES (
-    'https://open.spotify.com/track/7DM4BPaS7uofFul3ywMe46',
-    'Vente Pa Ca',
-    'Ricky Martin'
-);
-
 INSERT INTO popularity (
     track_url,
     date_viewed,
@@ -1788,20 +1370,6 @@ INSERT INTO popularity (
     'ec',
     4,
     12413
-);
-
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
-INSERT INTO artists VALUES ( 'J Balvin' );
-
-INSERT INTO tracks (
-    track_url,
-    track,
-    artist
-) VALUES (
-    'https://open.spotify.com/track/7hlzjtcmz4s4bof6rqsrbh',
-    'Safari',
-    'J Balvin'
 );
 
 INSERT INTO popularity (
@@ -1818,20 +1386,6 @@ INSERT INTO popularity (
     12386
 );
 
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
-INSERT INTO artists VALUES ( 'DJ Snake' );
-
-INSERT INTO tracks (
-    track_url,
-    track,
-    artist
-) VALUES (
-    'https://open.spotify.com/track/k945mflj3dptrcbmosqd4p',
-    'Let Me Love You',
-    'DJ Snake'
-);
-
 INSERT INTO popularity (
     track_url,
     date_viewed,
@@ -1844,20 +1398,6 @@ INSERT INTO popularity (
     'ec',
     6,
     11303
-);
-
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
-INSERT INTO artists VALUES ( 'IAmChino' );
-
-INSERT INTO tracks (
-    track_url,
-    track,
-    artist
-) VALUES (
-    'https://open.spotify.com/track/6stYbAJgTszHAHZMPxWWCY',
-    'Ay Mi Dios',
-    'IAmChino'
 );
 
 INSERT INTO popularity (
@@ -1873,10 +1413,6 @@ INSERT INTO popularity (
     7,
     10134
 );
-
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
-INSERT INTO artists VALUES ( 'The Chainsmokers' );
 
 INSERT INTO tracks (
     track_url,
@@ -1902,20 +1438,6 @@ INSERT INTO popularity (
     9747
 );
 
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
-INSERT INTO artists VALUES ( 'Wisin' );
-
-INSERT INTO tracks (
-    track_url,
-    track,
-    artist
-) VALUES (
-    'https://open.spotify.com/track/efyfhie3iunhzy1odidqd3',
-    'Vacaciones',
-    'Wisin'
-);
-
 INSERT INTO popularity (
     track_url,
     date_viewed,
@@ -1928,20 +1450,6 @@ INSERT INTO popularity (
     'ec',
     9,
     9544
-);
-
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
-INSERT INTO artists VALUES ( 'Sebastian Yatra' );
-
-INSERT INTO tracks (
-    track_url,
-    track,
-    artist
-) VALUES (
-    'https://open.spotify.com/track/nxxwrwt8mtfcdle5j1c3m4',
-    'Traicionera',
-    'Sebastian Yatra'
 );
 
 INSERT INTO popularity (
@@ -1958,20 +1466,6 @@ INSERT INTO popularity (
     9073
 );
 
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
-INSERT INTO artists VALUES ( 'CNCO' );
-
-INSERT INTO tracks (
-    track_url,
-    track,
-    artist
-) VALUES (
-    'https://open.spotify.com/track/ofcaosc1qtexntdzuabe3a',
-    'Reggaet??n Lento (Bailemos)',
-    'CNCO'
-);
-
 INSERT INTO popularity (
     track_url,
     date_viewed,
@@ -1984,20 +1478,6 @@ INSERT INTO popularity (
     'ec',
     1,
     17788
-);
-
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
-INSERT INTO artists VALUES ( 'Shakira' );
-
-INSERT INTO tracks (
-    track_url,
-    track,
-    artist
-) VALUES (
-    'https://open.spotify.com/track/jh6y6lrov2kgerwd6micua',
-    'Chantaje',
-    'Shakira'
 );
 
 INSERT INTO popularity (
@@ -2014,20 +1494,6 @@ INSERT INTO popularity (
     16254
 );
 
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
-INSERT INTO artists VALUES ( 'Zion and Lennox' );
-
-INSERT INTO tracks (
-    track_url,
-    track,
-    artist
-) VALUES (
-    'https://open.spotify.com/track/qdlzyvjxpohezejsd3qwbo',
-    'Otra Vez (feat. J Balvin)',
-    'Zion and Lennox'
-);
-
 INSERT INTO popularity (
     track_url,
     date_viewed,
@@ -2040,20 +1506,6 @@ INSERT INTO popularity (
     'ec',
     3,
     14529
-);
-
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
-INSERT INTO artists VALUES ( 'Ricky Martin' );
-
-INSERT INTO tracks (
-    track_url,
-    track,
-    artist
-) VALUES (
-    'https://open.spotify.com/track/46eul3ywmffm4bpas7uod7',
-    'Vente Pa Ca',
-    'Ricky Martin'
 );
 
 INSERT INTO popularity (
@@ -2070,20 +1522,6 @@ INSERT INTO popularity (
     12337
 );
 
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
-INSERT INTO artists VALUES ( 'J Balvin' );
-
-INSERT INTO tracks (
-    track_url,
-    track,
-    artist
-) VALUES (
-    'https://open.spotify.com/track/6rQSrBHf7HlZjtcMZ4S4bO',
-    'Safari',
-    'J Balvin'
-);
-
 INSERT INTO popularity (
     track_url,
     date_viewed,
@@ -2096,20 +1534,6 @@ INSERT INTO popularity (
     'ec',
     5,
     12102
-);
-
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
-INSERT INTO artists VALUES ( 'DJ Snake' );
-
-INSERT INTO tracks (
-    track_url,
-    track,
-    artist
-) VALUES (
-    'https://open.spotify.com/track/4pdPtRcBmOSQDlJ3Fk945m',
-    'Let Me Love You',
-    'DJ Snake'
 );
 
 INSERT INTO popularity (
@@ -2126,20 +1550,6 @@ INSERT INTO popularity (
     10765
 );
 
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
-INSERT INTO artists VALUES ( 'IAmChino' );
-
-INSERT INTO tracks (
-    track_url,
-    track,
-    artist
-) VALUES (
-    'https://open.spotify.com/track/6stYbAJgTszHAHZMPxWWCY',
-    'Ay Mi Dios',
-    'IAmChino'
-);
-
 INSERT INTO popularity (
     track_url,
     date_viewed,
@@ -2152,20 +1562,6 @@ INSERT INTO popularity (
     'ec',
     7,
     10379
-);
-
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
-INSERT INTO artists VALUES ( 'Wisin' );
-
-INSERT INTO tracks (
-    track_url,
-    track,
-    artist
-) VALUES (
-    'https://open.spotify.com/track/3dQDid3IUNhZy1OehIfYfE',
-    'Vacaciones',
-    'Wisin'
 );
 
 INSERT INTO popularity (
@@ -2182,20 +1578,6 @@ INSERT INTO popularity (
     9666
 );
 
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
-INSERT INTO artists VALUES ( 'The Chainsmokers' );
-
-INSERT INTO tracks (
-    track_url,
-    track,
-    artist
-) VALUES (
-    'https://open.spotify.com/track/7BKLCZ1jbUBVqRi2FVlTVw',
-    'Closer',
-    'The Chainsmokers'
-);
-
 INSERT INTO popularity (
     track_url,
     date_viewed,
@@ -2208,20 +1590,6 @@ INSERT INTO popularity (
     'ec',
     9,
     9384
-);
-
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
-INSERT INTO artists VALUES ( 'Sebastian Yatra' );
-
-INSERT INTO tracks (
-    track_url,
-    track,
-    artist
-) VALUES (
-    'https://open.spotify.com/track/5J1c3M4EldCfNxXwrwt8mT',
-    'Traicionera',
-    'Sebastian Yatra'
 );
 
 INSERT INTO popularity (
@@ -2238,20 +1606,6 @@ INSERT INTO popularity (
     8874
 );
 
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
-INSERT INTO artists VALUES ( 'CNCO' );
-
-INSERT INTO tracks (
-    track_url,
-    track,
-    artist
-) VALUES (
-    'https://open.spotify.com/track/3AEZUABDXNtecAOSC1qTfo',
-    'Reggaet??n Lento (Bailemos)',
-    'CNCO'
-);
-
 INSERT INTO popularity (
     track_url,
     date_viewed,
@@ -2264,20 +1618,6 @@ INSERT INTO popularity (
     'ec',
     1,
     18579
-);
-
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
-INSERT INTO artists VALUES ( 'Shakira' );
-
-INSERT INTO tracks (
-    track_url,
-    track,
-    artist
-) VALUES (
-    'https://open.spotify.com/track/6mICuAdrwEjh6Y6lroV2Kg',
-    'Chantaje',
-    'Shakira'
 );
 
 INSERT INTO popularity (
@@ -2294,20 +1634,6 @@ INSERT INTO popularity (
     17215
 );
 
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
-INSERT INTO artists VALUES ( 'Zion and Lennox' );
-
-INSERT INTO tracks (
-    track_url,
-    track,
-    artist
-) VALUES (
-    'https://open.spotify.com/track/3QwBODjSEzelZyVjxPOHdq',
-    'Otra Vez (feat. J Balvin)',
-    'Zion and Lennox'
-);
-
 INSERT INTO popularity (
     track_url,
     date_viewed,
@@ -2320,20 +1646,6 @@ INSERT INTO popularity (
     'ec',
     3,
     15447
-);
-
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
-INSERT INTO artists VALUES ( 'Ricky Martin' );
-
-INSERT INTO tracks (
-    track_url,
-    track,
-    artist
-) VALUES (
-    'https://open.spotify.com/track/7DM4BPaS7uofFul3ywMe46',
-    'Vente Pa Ca',
-    'Ricky Martin'
 );
 
 INSERT INTO popularity (
@@ -2350,20 +1662,6 @@ INSERT INTO popularity (
     12770
 );
 
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
-INSERT INTO artists VALUES ( 'J Balvin' );
-
-INSERT INTO tracks (
-    track_url,
-    track,
-    artist
-) VALUES (
-    'https://open.spotify.com/track/7hlzjtcmz4s4bof6rqsrbh',
-    'Safari',
-    'J Balvin'
-);
-
 INSERT INTO popularity (
     track_url,
     date_viewed,
@@ -2376,20 +1674,6 @@ INSERT INTO popularity (
     'ec',
     5,
     12766
-);
-
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
-INSERT INTO artists VALUES ( 'IAmChino' );
-
-INSERT INTO tracks (
-    track_url,
-    track,
-    artist
-) VALUES (
-    'https://open.spotify.com/track/6stYbAJgTszHAHZMPxWWCY',
-    'Ay Mi Dios',
-    'IAmChino'
 );
 
 INSERT INTO popularity (
@@ -2406,20 +1690,6 @@ INSERT INTO popularity (
     10841
 );
 
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
-INSERT INTO artists VALUES ( 'DJ Snake' );
-
-INSERT INTO tracks (
-    track_url,
-    track,
-    artist
-) VALUES (
-    'https://open.spotify.com/track/k945mflj3dptrcbmosqd4p',
-    'Let Me Love You',
-    'DJ Snake'
-);
-
 INSERT INTO popularity (
     track_url,
     date_viewed,
@@ -2432,20 +1702,6 @@ INSERT INTO popularity (
     'ec',
     7,
     10578
-);
-
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
-INSERT INTO artists VALUES ( 'Wisin' );
-
-INSERT INTO tracks (
-    track_url,
-    track,
-    artist
-) VALUES (
-    'https://open.spotify.com/track/efyfhie3iunhzy1odidqd3',
-    'Vacaciones',
-    'Wisin'
 );
 
 INSERT INTO popularity (
@@ -2462,20 +1718,6 @@ INSERT INTO popularity (
     10318
 );
 
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
-INSERT INTO artists VALUES ( 'Sebastian Yatra' );
-
-INSERT INTO tracks (
-    track_url,
-    track,
-    artist
-) VALUES (
-    'https://open.spotify.com/track/nxxwrwt8mtfcdle5j1c3m4',
-    'Traicionera',
-    'Sebastian Yatra'
-);
-
 INSERT INTO popularity (
     track_url,
     date_viewed,
@@ -2488,20 +1730,6 @@ INSERT INTO popularity (
     'ec',
     9,
     9457
-);
-
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
-INSERT INTO artists VALUES ( 'The Chainsmokers' );
-
-INSERT INTO tracks (
-    track_url,
-    track,
-    artist
-) VALUES (
-    'https://open.spotify.com/track/vltvwf7bklcz1jbubvqri2',
-    'Closer',
-    'The Chainsmokers'
 );
 
 INSERT INTO popularity (
@@ -2518,20 +1746,6 @@ INSERT INTO popularity (
     9090
 );
 
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
-INSERT INTO artists VALUES ( 'CNCO' );
-
-INSERT INTO tracks (
-    track_url,
-    track,
-    artist
-) VALUES (
-    'https://open.spotify.com/track/ofcaosc1qtexntdzuabe3a',
-    'Reggaet??n Lento (Bailemos)',
-    'CNCO'
-);
-
 INSERT INTO popularity (
     track_url,
     date_viewed,
@@ -2544,20 +1758,6 @@ INSERT INTO popularity (
     'ec',
     1,
     21438
-);
-
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
-INSERT INTO artists VALUES ( 'Shakira' );
-
-INSERT INTO tracks (
-    track_url,
-    track,
-    artist
-) VALUES (
-    'https://open.spotify.com/track/jh6y6lrov2kgerwd6micua',
-    'Chantaje',
-    'Shakira'
 );
 
 INSERT INTO popularity (
@@ -2574,20 +1774,6 @@ INSERT INTO popularity (
     19357
 );
 
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
-INSERT INTO artists VALUES ( 'Zion and Lennox' );
-
-INSERT INTO tracks (
-    track_url,
-    track,
-    artist
-) VALUES (
-    'https://open.spotify.com/track/qdlzyvjxpohezejsd3qwbo',
-    'Otra Vez (feat. J Balvin)',
-    'Zion and Lennox'
-);
-
 INSERT INTO popularity (
     track_url,
     date_viewed,
@@ -2600,20 +1786,6 @@ INSERT INTO popularity (
     'ec',
     3,
     17095
-);
-
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
-INSERT INTO artists VALUES ( 'J Balvin' );
-
-INSERT INTO tracks (
-    track_url,
-    track,
-    artist
-) VALUES (
-    'https://open.spotify.com/track/7hlzjtcmz4s4bof6rqsrbh',
-    'Safari',
-    'J Balvin'
 );
 
 INSERT INTO popularity (
@@ -2629,10 +1801,6 @@ INSERT INTO popularity (
     4,
     14493
 );
-
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
-INSERT INTO artists VALUES ( 'Ricky Martin' );
 
 INSERT INTO tracks (
     track_url,
@@ -2658,20 +1826,6 @@ INSERT INTO popularity (
     14144
 );
 
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
-INSERT INTO artists VALUES ( 'IAmChino' );
-
-INSERT INTO tracks (
-    track_url,
-    track,
-    artist
-) VALUES (
-    'https://open.spotify.com/track/6stYbAJgTszHAHZMPxWWCY',
-    'Ay Mi Dios',
-    'IAmChino'
-);
-
 INSERT INTO popularity (
     track_url,
     date_viewed,
@@ -2684,20 +1838,6 @@ INSERT INTO popularity (
     'ec',
     6,
     11781
-);
-
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
-INSERT INTO artists VALUES ( 'Wisin' );
-
-INSERT INTO tracks (
-    track_url,
-    track,
-    artist
-) VALUES (
-    'https://open.spotify.com/track/3dQDid3IUNhZy1OehIfYfE',
-    'Vacaciones',
-    'Wisin'
 );
 
 INSERT INTO popularity (
@@ -2714,20 +1854,6 @@ INSERT INTO popularity (
     11553
 );
 
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
-INSERT INTO artists VALUES ( 'DJ Snake' );
-
-INSERT INTO tracks (
-    track_url,
-    track,
-    artist
-) VALUES (
-    'https://open.spotify.com/track/4pdPtRcBmOSQDlJ3Fk945m',
-    'Let Me Love You',
-    'DJ Snake'
-);
-
 INSERT INTO popularity (
     track_url,
     date_viewed,
@@ -2742,20 +1868,6 @@ INSERT INTO popularity (
     10762
 );
 
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
-INSERT INTO artists VALUES ( 'Ozuna' );
-
-INSERT INTO tracks (
-    track_url,
-    track,
-    artist
-) VALUES (
-    'https://open.spotify.com/track/20ZAJdsKB5IGbGj4ilRt2o',
-    'Dile Que Tu Me Quieres',
-    'Ozuna'
-);
-
 INSERT INTO popularity (
     track_url,
     date_viewed,
@@ -2768,20 +1880,6 @@ INSERT INTO popularity (
     'ec',
     9,
     10552
-);
-
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
-INSERT INTO artists VALUES ( 'Sebastian Yatra' );
-
-INSERT INTO tracks (
-    track_url,
-    track,
-    artist
-) VALUES (
-    'https://open.spotify.com/track/5J1c3M4EldCfNxXwrwt8mT',
-    'Traicionera',
-    'Sebastian Yatra'
 );
 
 INSERT INTO popularity (
