@@ -26,8 +26,6 @@ INSERT INTO popularity (
     19272
 );
 
-INSERT INTO regions ( region ) VALUES ( 'ec' );
-
 INSERT INTO artists VALUES ( 'Shakira' );
 
 INSERT INTO tracks (
