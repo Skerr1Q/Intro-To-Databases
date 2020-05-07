@@ -151,7 +151,7 @@ INSERT INTO popularity (
 ) VALUES (
     'https://open.spotify.com/track/0sXvAOmXgjR2QUqLK1MltU',
     TO_DATE('1/1/2017', 'MM/DD/YYYY'),
-    ec,
+    'ec',
     6,
     12843
 );
@@ -203,7 +203,7 @@ INSERT INTO popularity (
 ) VALUES (
     'https://open.spotify.com/track/5mey7CLLuFToM2P68Qu1gF',
     TO_DATE('1/1/2017', 'MM/DD/YYYY'),
-    ec,
+    'ec',
     8,
     10653
 );
@@ -515,7 +515,7 @@ INSERT INTO popularity (
 ) VALUES (
     'https://open.spotify.com/track/1pWYnQIlqxTh5bxuPmTG4E',
     TO_DATE('1/1/2017', 'MM/DD/YYYY'),
-    ec,
+    'ec',
     20,
     6779
 );
@@ -845,7 +845,7 @@ INSERT INTO tracks (
 ) VALUES (
     'https://open.spotify.com/track/58zslzpvfflaiibnwoa22o',
     'Human',
-    'Rag'n'Bone Man'
+    'RagnBone Man'
 );
 
 INSERT INTO popularity (
