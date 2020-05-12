@@ -1,12 +1,3 @@
---drop all tables
-
-SELECT
-    'DROP TABLE "'
-    || table_name
-    || '" CASCADE CONSTRAINTS;'
-FROM
-    user_tables;
-
 --create table Artists
 
 CREATE TABLE artists (
@@ -18,7 +9,7 @@ ALTER TABLE artists ADD CONSTRAINT artist_pk PRIMARY KEY ( artist );
 --create table Regions
 
 CREATE TABLE regions (
-    region CHAR(2) NOT NULL
+    region VARCHAR(256) NOT NULL
 );
 
 ALTER TABLE regions ADD CONSTRAINT region_pk PRIMARY KEY ( region );
@@ -39,14 +30,14 @@ ALTER TABLE tracks
 
 --create table Popularity
 
-CREATE TABLE popularity (
+CREATE TABLE popularity
+
+(
     track_url       VARCHAR(256) NOT NULL,
     date_viewed     DATE NOT NULL,
-    region          CHAR(2) NOT NULL,
-    chart_position  NUMBER(10) NOT NULL,
-    streams         NUMBER(10) NOT NULL
-);
-
+    region          VARCHAR(256) NOT NULL,
+    chart_position  INTEGER NOT NULL,
+    streams         INTEGER NOT NULL );
 ALTER TABLE popularity
     ADD CONSTRAINT popularity_pk PRIMARY KEY ( track_url,
                                                date_viewed,
