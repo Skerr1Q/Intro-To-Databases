@@ -29,7 +29,6 @@ with open(file_name, 'r', encoding='utf-8') as csv_file:
     reader = csv.reader(csv_file)
     for f in list(reader)[1:20]:
 
-        print(f)
         chart_position = f[0].encode("cp1251", "replace").decode("cp1251", "ignore").strip()
         track = f[1].encode("cp1251", "replace").decode("cp1251", "ignore").strip()
         artist = f[2].encode("cp1251", "replace").decode("cp1251", "ignore").strip()

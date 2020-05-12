@@ -1,12 +1,9 @@
-
 import cx_Oracle
 
 import chart_studio
 import chart_studio.plotly as py
 
 import plotly.graph_objs as go
-
-import re
 
 import chart_studio.dashboard_objs as dashboard
 
