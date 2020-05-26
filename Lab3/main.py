@@ -26,8 +26,7 @@ databaseName = 'localhost/xe'
 connection = cx_Oracle.connect(username, password, databaseName)
 cursor = connection.cursor()
 
-first_query = \
-"""
+first_query = """
     SELECT
         SUM(streams) as total_streams,
         region
@@ -49,7 +48,7 @@ second_query = """
         streams_popularity
     WHERE
             region = 'ec'
-        AND chart_position <= 20
+        AND chart_position <= 5
         AND date_viewed = '01-JAN-17'
     ORDER BY
         streams DESC
@@ -125,7 +124,7 @@ box_2 = {
     'type': 'box',
     'boxType': 'plot',
     'fileId': track_pieId,
-    'title': "Відсоток від загальної кількості прослуховувань у певної пісні у топ 20 за 2017-01-01 у Еквадорі"
+    'title': "Відсоток від загальної кількості прослуховувань у певної пісні у топ 5 за 2017-01-01 у Еквадорі"
 }
 
 box_3 = {
