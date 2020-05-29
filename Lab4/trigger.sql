@@ -1,3 +1,5 @@
+-- raise error if new streams less than older ones
+
 CREATE OR REPLACE TRIGGER streams_decrease_trigger BEFORE
     UPDATE ON popularity
     FOR EACH ROW 

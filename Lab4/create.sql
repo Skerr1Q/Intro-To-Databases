@@ -28,7 +28,6 @@ CREATE TABLE popularity
     track_url       VARCHAR(256) NOT NULL,
     date_viewed     DATE NOT NULL,
     region          VARCHAR(256) NOT NULL,
-    chart_position  INTEGER NOT NULL,
     streams         INTEGER NOT NULL );
 ALTER TABLE popularity
     ADD CONSTRAINT popularity_pk PRIMARY KEY ( track_url,

@@ -30,16 +30,19 @@ END;
 /
 
 BEGIN
-    add_track('https://open.spotify.com/track/3QwBODjSEzelZyVjxPOHdq', 'fr', 3, '01-JAN-17', 12345);
-    add_track('https://open.spotify.com/track/3QwBODjSEzelZyVjxPOHyt', 'ec', 5, '03-JAN-17', 12645);
+    add_track('https://open.spotify.com/track/3QwBODjSEzelZyVjxPOHdq', 'fr', '01-JAN-17', 12345);
+    add_track('https://open.spotify.com/track/3QwBODjSEzelZyVjxPOHyt', 'ec', '03-JAN-17', 12645);
 END;
 
 -- trigger
 
-UPDATE popularity
-SET
-    streams = 0
-WHERE
-        track_url = 'https://open.spotify.com/track/6mICuAdrwEjh6Y6lroV2Kg'
-    AND date_viewed = '01-JAN-17'
-    AND region = 'ec';
+BEGIN
+    UPDATE popularity
+    SET
+        streams = 0
+    WHERE
+            track_url = 'https://open.spotify.com/track/6mICuAdrwEjh6Y6lroV2Kg'
+        AND date_viewed = '01-JAN-17'
+        AND region = 'ec';
+
+END;

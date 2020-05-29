@@ -2,7 +2,6 @@ CREATE OR REPLACE PACKAGE streams_popularity_package IS
     PROCEDURE add_track (
         track_url_par       IN  popularity.track_url%TYPE,
         region_par          IN  popularity.region%TYPE,
-        chart_position_par  IN  popularity.chart_position%TYPE,
         date_viewed_par     IN  popularity.date_viewed%TYPE,
         streams_par         IN  popularity.streams%TYPE
     );
@@ -21,7 +20,6 @@ CREATE OR REPLACE PACKAGE BODY streams_popularity_package IS
     PROCEDURE add_track (
         track_url_par       IN  popularity.track_url%TYPE,
         region_par          IN  popularity.region%TYPE,
-        chart_position_par  IN  popularity.chart_position%TYPE,
         date_viewed_par     IN  popularity.date_viewed%TYPE,
         streams_par         IN  popularity.streams%TYPE
     ) IS
@@ -47,7 +45,6 @@ CREATE OR REPLACE PACKAGE BODY streams_popularity_package IS
             track_url_par,
             date_viewed_par,
             region_par,
-            chart_position_par,
             streams_par
         );
 
